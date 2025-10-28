@@ -1,0 +1,11 @@
+/*
+* Animator front
+*/
+.nb-animator-line,
+.nb-animator-word,
+.nb-animator-char{
+    display: inline-block;
+}
+[data-animator="flickering"]{
+    visibility: hidden !important;
+}
