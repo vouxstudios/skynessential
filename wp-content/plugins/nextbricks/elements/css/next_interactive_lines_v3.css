@@ -1,0 +1,34 @@
+.nb-interactive-lines-v3{
+    position: relative;
+    overflow: hidden;
+}
+.nb-interactive-lines-v3__content{
+    position: relative;
+    z-index: 1;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nb-interactive-lines-v3__magnet{
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.nb-interactive-lines-v3__magnet span {
+    --rotate: -45deg;
+    transform: rotate(var(--rotate, -10deg));
+    will-change: transform;
+
+    display: block;
+    transform-origin: center;
+}
