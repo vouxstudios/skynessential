@@ -1,8 +1,0 @@
-/*
-* Horizontal Scroll
-*/
-.next-horizontal-scroll{
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: row;
-}
